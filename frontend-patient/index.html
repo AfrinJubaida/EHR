@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Patient Frontend Application</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <div id="allReportDiv">Show All Allowed Reports
+        </div>
+        <button id="showAll" type="button">Show All Reports</button>
+        <div id="viewReportDiv">Search Any Report
+            <form method="GET" id="viewReport">
+                <input type="text" name="d_name" id="vpd_name" value="doctor's name">
+                <input type="text" name="disease" id="vpdisease" value="disease name">
+                <button type="submit">Search</button>
+            </form>
+            <div id="viewreportdetails">
+            </div>
+        </div>
+    </body>
+</html>
